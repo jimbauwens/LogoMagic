@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cat nspire.lua screen.lua editor.lua > ed.lua
+
+luna ed.lua LogoEditor.tns 

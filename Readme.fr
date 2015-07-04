@@ -1,0 +1,57 @@
+LogoMagic, un interpréteur Logo UCB écrit en Lua.
+Par Jim Bauwens
+
+- Licence
+
+ 	 This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, version 3 of the License.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    
+- A propos
+
+Ce programme vous permet de créer et d'exécuter des scripts "logo" sur votre TI-Nspire (TM).
+Logo est un langage éducatif, adaptés à tous les âges. Il est souvent utilisé pour introduire la programmation informatique à toute personne.
+Pour cette raison, Logo est parfois à tort considéré comme très simple, alors qu'il peut être assez complexe, et égal à toute autre langue. 
+
+
+- Utilisation
+
+Lorsque vous ouvrez le script, vous remarquerez deux onglets, l'un avec le lanceur, et l'un avec l'éditeur.
+Utilisez Ctrl + gauche / droite pour naviguer entre eux.
+
+Pour lancer un script (premier onglet), vous sélectionnez dans la liste et appuyez sur Entrée. L'exécution doit commencer tout de suite.
+Veuillez noter que certains scripts peuvent prendre un certain temps à s'exécuter, car ils sont lancés dans un langage interprété.
+
+Pour modifier un script ou en créer un nouveau, accédez au 2ème l'onglet. Choisissez "Nouveau script ..." pour créer un nouveau script, ou toute autre option pour modifier un script existant.
+L'éditeur apparaîtra. La navigation dans l'éditeur est très simple (touches fléchées). Pour sauvegarder votre script, appuyez simplement sur "Esc". 
+
+- Key
+
+Basculer entre l'éditeur et le lanceur: ctrl + gauche / droite
+Lancement / Modifier un script: Entrez
+
+Naviguer dans l'éditeur: haut / bas / gauche / droit
+Onglet Insertion: Onglet 
+
+- Implémentation du langage Logo
+
+Les primitives suivantes sont implented:
+butlasts, last, fput, bk, while, pick, cg, remainder, list, firsts, hideturtle, minus, word?, setc, sqrt, sety, cs, ifelse, do.while, modus, butfirsts, difference, cos, setxy, log10, lasts, wordp, if, output, for, until, sentence, thing, combine, sin, emptyp, notequalp, list?, print, remove, pu, round, random, setpc, circle, first, st, clean, setx, item, stop, se, rt, repeat, penup, lput, pendown, setpencolor, back, ht, fd, right, equalp, butlast, forward, repcount, do.until, word, left, debug, make, lt, show, notequal?, quotient, power, empty?, butfirst, equal?, product, number?, numberp, sum, listp, showturtle, int, tan, pd, label, xcor, ycor, pos, setlabelheight, setheading, local
+
+LogoMagic ne supporte pas encore ensemble et "?", mais les choses les plus nécessaires (comme les listes, les opérateurs mots infixe) sont implémentés.
+
+- Crédits
+
+Levak, Critor et Adriweb de TI-Planet
+Qwery.55 (aussi connu comme fishbot) pour pointer me RPN.
+Le créateur de LOGO UCB!
+
+Beaucoup d'autres qui échappent à mon esprit: D

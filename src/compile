@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cat routines.lua infix.lua parser.lua nspire.lua turtle.lua screen.lua main.lua > big.lua
+
+luna big.lua LogoMagic2.tns 

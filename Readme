@@ -1,0 +1,57 @@
+LogoMagic, an UCB Logo interpreter written in Lua.
+By Jim Bauwens
+
+-- License
+
+ 	 This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, version 3 of the License.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    
+-- About
+
+This program allows you to create and run Logo scripts on your TI-Nspire (TM) calculator.
+Logo is an educational language, suitable for all ages. Its used many times to introduce computer programming to people.
+Because of this, Logo is many times mistankly seen as very simple, while its quite complex, and equal to any other language.
+
+
+-- Usage
+
+When you open the script, you will notice two tabs, one with the Launcher, and one with the editor.
+Use ctrl + left/right to navigate between them.
+
+To launch a script (first tab), you select it in the list and press enter. Execution should start right away.
+Please note that some scripts might take a time to run, as they are interpreted in an interpreted language.
+
+To edit a script or create a new one, navigate to the seccond tab. Choose "New script..." to create a new script, or any other option to edit an existing script.
+The editor will appear. Navigation through the editor is very simple (arrow keys), and to save your script just press "escape". 
+
+-- Key's
+
+Switch between editor and launcher : ctrl + left/right
+Launch/Edit a script : Enter
+
+Navigate in editor : up/down/left/right
+Insert tab : Tab
+
+-- Logo implementation 
+
+The following primatives are implemented: 
+butlasts, last, fput, bk, while, pick, cg, remainder, list, firsts, hideturtle, minus, word?, setc, sqrt, sety, cs, ifelse, do.while, modus, butfirsts, difference, cos, setxy, log10, lasts, wordp, if, output, for, until, sentence, thing, combine, sin, emptyp, notequalp, list?, print, remove, pu, round, random, setpc, circle, first, st, clean, setx, item, stop, se, rt, repeat, penup, lput, pendown, setpencolor, back, ht, fd, right, equalp, butlast, forward, repcount, do.until, word, left, debug, make, lt, show, notequal?, quotient, power, empty?, butfirst, equal?, product, number?, numberp, sum, listp, showturtle, int, tan, pd, xcor, ycor, heading, label, setlabelheight, setheading, local
+
+LogoMagic doesn't yet support array's and "?" stuff, but most needed stuff (such as lists, words, infix operators) are implemented.
+
+-- Credits
+
+Levak, Critor and Adriweb from TI-Planet
+Qwery.55 (also known as Fishbot) for pointing me to RPN.
+The creator of UCB LOGO!
+
+Many others who escape my mind :D
